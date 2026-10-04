@@ -1,0 +1,22 @@
+"UnlitGeneric"
+{
+    "$basetexture" "jumpscare/nightmarejumpscare"
+    "$translucent" "1"
+    "$no_fullbright" "1"
+    "$ignorez" "1"
+    
+    "Proxies"
+    {
+        "AnimatedTexture"
+        {
+            "animatedTextureVar" "$basetexture"
+            "animatedTextureFrameNumVar" "$frame"
+            "animatedTextureFrameRate" "17"
+        }
+        "ConVar"
+        {
+            "convar" "slenderman_jumpscare_frame"  
+            "resultVar" "$frame"
+        }
+    } 
+}

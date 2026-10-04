@@ -1,0 +1,24 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/nightmare/nfredbear/endom2"
+	"$bumpmap" "models/nightmare/nfredbear/endom1_bump"
+
+ 	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost"	"4"
+	"$phongfresnelranges"	"[0.05 0.5 1]"
+	"$phongalbedotint" "1"
+
+$surfaceprop metal
+$nodecal 1
+$nocull 1
+
+
+$halflambert 0
+$diffuseexp 1.5
+
+	"$rimlight" "1" 
+	"$rimlightexponent" "0.5" 
+	"$rimlightboost" "1.5" 
+	"$rimmask" 1
+}

@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/nightmare/nfredbear/n_suitmat2"
+	"$bumpmap" "models/nightmare/nfredbear/suitmat_bump"
+
+$alpha 0.8
+
+	$surfaceprop metal
+
+ 	"$phong" "1"
+	"$phongexponent" "8"
+	"$phongboost"	"3"
+	"$phongfresnelranges"	"[0.05 0.5 1]"
+	"$phongalbedotint" "1"
+                "$phongtint" "[0.11 0.11 0.11]"
+
+$halflambert 0
+$diffuseexp 1.5
+}
+
+
